@@ -5,6 +5,8 @@
 // @downloadURL    https://raw.githubusercontent.com/dfbasis/dfgo/main/singlex.switchenv.user.js
 // @include     https://stackoverflow.com/*
 // @include     https://procurement-*.singlex.com/*
+// @include     https://*.applicationstudio.cloud.sap/*odata/*
+// @include     https://port6004*.applicationstudio.cloud.sap/*
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
 // @require     http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js
 // @resource    jqUI_CSS  http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css
@@ -26,7 +28,7 @@ $("body").append (
         <option value="les"    data-type="domain" data-open="procurement-les.singlex.com">les</option>        \
         <option value="lgc"    data-type="domain" data-open="procurement-lgc.singlex.com">lgc</option>         \
         <option value="ws-44"  data-type="domain" data-open="port8080-workspaces-ws-44545.ap12.applicationstudio.cloud.sap">ws-44</option>         \
-        <option value="ws-42"  data-type="domain" data-open="port8080-workspaces-ws-q2vs2.ap12.applicationstudio.cloud.sap">ws-42</option>         \
+        <option value="ws-45"  data-type="domain" data-open="port8080-workspaces-ws-nzlxg.ap12.applicationstudio.cloud.sap">ws-45</option>         \
      </select>                                                          \
     '
 );
